@@ -1,15 +1,16 @@
 /*
 Bem-vindo ao beecrowd!
 
-O seu primeiro programa em qualquer linguagem de programaÃ§Ã£o normalmente Ã© o "Hello World!". 
-Neste primeiro problema tudo o que vocÃª precisa fazer Ã© imprimir esta mensagem na tela.
+O seu primeiro programa em qualquer linguagem de programação normalmente é o "Hello World!". 
+Neste primeiro problema tudo o que você precisa fazer é imprimir esta mensagem na tela.
 
 Entrada
-Este problema nÃ£o possui nenhuma entrada.
+Este problema não possui nenhuma entrada.
 
-SaÃ­da
-VocÃª deve imprimir a mensagem "Hello World!" e em seguida o final de linha, conforme o exemplo abaixo.
+Saída
+Você deve imprimir a mensagem "Hello World!" e em seguida o final de linha, conforme o exemplo abaixo.
 */
+
 #include <stdio.h>
  
 int main() {
@@ -18,4 +19,3 @@ int main() {
  
     return 0;
 }
-

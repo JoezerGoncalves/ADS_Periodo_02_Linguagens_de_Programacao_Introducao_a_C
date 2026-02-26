@@ -1,13 +1,13 @@
 /*
 Leia dois valores inteiros. A seguir, calcule o produto entre estes dois valores 
-e atribua esta operaÃ§Ã£o Ã  variÃ¡vel PROD. A seguir mostre a variÃ¡vel PROD com mensagem correspondente.   
+e atribua esta operação à variável PROD. A seguir mostre a variável PROD com mensagem correspondente.   
 
 Entrada
-O arquivo de entrada contÃ©m 2 valores inteiros.
+O arquivo de entrada contém 2 valores inteiros.
 
-SaÃ­da
-Imprima a mensagem "PROD" e a variÃ¡vel PROD conforme exemplo abaixo, com um espaÃ§o em branco antes e depois da igualdade. 
-NÃ£o esqueÃ§a de imprimir o fim de linha apÃ³s o produto, caso contrÃ¡rio seu programa apresentarÃ¡ a mensagem: â€œPresentation Errorâ€.
+Saída
+Imprima a mensagem "PROD" e a variável PROD conforme exemplo abaixo, com um espaço em branco antes e depois da igualdade. 
+Não esqueça de imprimir o fim de linha após o produto, caso contrário seu programa apresentará a mensagem: “Presentation Error”.
 */
 
 #include <stdio.h>

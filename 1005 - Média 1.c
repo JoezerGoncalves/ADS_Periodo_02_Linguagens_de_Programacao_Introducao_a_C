@@ -1,15 +1,15 @@
 /*
-Leia 2 valores de ponto flutuante de dupla precis√£o A e B, que correspondem a 2 notas de um aluno. 
-A seguir, calcule a m√©dia do aluno, sabendo que a nota A tem peso 3.5 e a nota B tem peso 7.5 (A soma dos pesos portanto √© 11). 
-Assuma que cada nota pode ir de 0 at√© 10.0, sempre com uma casa decimal.
+Leia 2 valores de ponto flutuante de dupla precis„o A e B, que correspondem a 2 notas de um aluno. 
+A seguir, calcule a mÈdia do aluno, sabendo que a nota A tem peso 3.5 e a nota B tem peso 7.5 (A soma dos pesos portanto È 11). 
+Assuma que cada nota pode ir de 0 atÈ 10.0, sempre com uma casa decimal.
 
 Entrada
-O arquivo de entrada cont√©m 2 valores com uma casa decimal cada um.
+O arquivo de entrada contÈm 2 valores com uma casa decimal cada um.
 
-Sa√≠da
-Imprima a mensagem "MEDIA" e a m√©dia do aluno conforme exemplo abaixo, com 5 d√≠gitos ap√≥s o ponto decimal e com um espa√ßo 
-em branco antes e depois da igualdade. Utilize vari√°veis de dupla precis√£o (double) e como todos os problemas, n√£o esque√ßa de 
-imprimir o fim de linha ap√≥s o resultado, caso contr√°rio, voc√™ receber√° "Presentation Error".
+SaÌda
+Imprima a mensagem "MEDIA" e a mÈdia do aluno conforme exemplo abaixo, com 5 dÌgitos apÛs o ponto decimal e com um espaÁo 
+em branco antes e depois da igualdade. Utilize vari·veis de dupla precis„o (double) e como todos os problemas, n„o esqueÁa de 
+imprimir o fim de linha apÛs o resultado, caso contr·rio, vocÍ receber· "Presentation Error".
 */
 
 #include <stdio.h>

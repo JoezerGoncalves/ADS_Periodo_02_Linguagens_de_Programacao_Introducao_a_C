@@ -1,18 +1,18 @@
 /*
-Leia 2 valores inteiros e armazene-os nas variÃ¡veis A e B. 
-Efetue a soma de A e B atribuindo o seu resultado na variÃ¡vel X. 
+Leia 2 valores inteiros e armazene-os nas variáveis A e B. 
+Efetue a soma de A e B atribuindo o seu resultado na variável X. 
 Imprima X conforme exemplo apresentado abaixo. 
-NÃ£o apresente mensagem alguma alÃ©m daquilo que estÃ¡ sendo especificado
-e nÃ£o esqueÃ§a de imprimir o fim de linha apÃ³s o resultado, 
-caso contrÃ¡rio, vocÃª receberÃ¡ "Presentation Error".
+Não apresente mensagem alguma além daquilo que está sendo especificado
+e não esqueça de imprimir o fim de linha após o resultado, 
+caso contrário, você receberá "Presentation Error".
 
 Entrada
-A entrada contÃ©m 2 valores inteiros.
+A entrada contém 2 valores inteiros.
 
-SaÃ­da
-Imprima a mensagem "X = " (letra X maiÃºscula) seguido pelo valor da 
-variÃ¡vel X e pelo final de linha. 
-Cuide para que tenha um espaÃ§o antes e depois do sinal de igualdade, 
+Saída
+Imprima a mensagem "X = " (letra X maiúscula) seguido pelo valor da 
+variável X e pelo final de linha. 
+Cuide para que tenha um espaço antes e depois do sinal de igualdade, 
 conforme o exemplo abaixo.
 */
 

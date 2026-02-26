@@ -1,15 +1,15 @@
 /*
-Leia 3 valores, no caso, variÃ¡veis A, B e C, que sÃ£o as trÃªs notas de um aluno. A seguir, calcule a mÃ©dia do aluno, 
+Leia 3 valores, no caso, variáveis A, B e C, que são as três notas de um aluno. A seguir, calcule a média do aluno, 
 sabendo que a nota A tem peso 2, a nota B tem peso 3 e a nota C tem peso 5. Considere que cada nota pode ir de 0 
-atÃ© 10.0, sempre com uma casa decimal.
+até 10.0, sempre com uma casa decimal.
 
 Entrada
-O arquivo de entrada contÃ©m 3 valores com uma casa decimal, de dupla precisÃ£o (double).
+O arquivo de entrada contém 3 valores com uma casa decimal, de dupla precisão (double).
 
-SaÃ­da
-Imprima a mensagem "MEDIA" e a mÃ©dia do aluno conforme exemplo abaixo, com 1 dÃ­gito apÃ³s o ponto decimal e 
-com um espaÃ§o em branco antes e depois da igualdade. Assim como todos os problemas, nÃ£o esqueÃ§a de imprimir o 
-fim de linha apÃ³s o resultado, caso contrÃ¡rio, vocÃª receberÃ¡ "Presentation Error".
+Saída
+Imprima a mensagem "MEDIA" e a média do aluno conforme exemplo abaixo, com 1 dígito após o ponto decimal e 
+com um espaço em branco antes e depois da igualdade. Assim como todos os problemas, não esqueça de imprimir o 
+fim de linha após o resultado, caso contrário, você receberá "Presentation Error".
 */
 
 #include <stdio.h>
