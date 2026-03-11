@@ -1,16 +1,16 @@
 /*
 Leia um valor de ponto flutuante com duas casas decimais. Este valor representa um 
-valor monet·rio. A seguir, calcule o menor n˙mero de notas e moedas possÌveis no 
+valor monet√°rio. A seguir, calcule o menor n√∫mero de notas e moedas poss√≠veis no 
 qual o valor pode ser decomposto. 
-As notas consideradas s„o de 100, 50, 20, 10, 5, 2. 
-As moedas possÌveis s„o de 1, 0.50, 0.25, 0.10, 0.05 e 0.01. 
-A seguir mostre a relaÁ„o de notas necess·rias.
+As notas consideradas s√£o de 100, 50, 20, 10, 5, 2. 
+As moedas poss√≠veis s√£o de 1, 0.50, 0.25, 0.10, 0.05 e 0.01. 
+A seguir mostre a rela√ß√£o de notas necess√°rias.
 
 Entrada
-O arquivo de entrada contÈm um valor de ponto flutuante N (0 = N = 1000000.00).
+O arquivo de entrada cont√©m um valor de ponto flutuante N (0 = N = 1000000.00).
 
-SaÌda
-Imprima a quantidade mÌnima de notas e moedas necess·rias para trocar o valor 
+Sa√≠da
+Imprima a quantidade m√≠nima de notas e moedas necess√°rias para trocar o valor 
 inicial, conforme exemplo fornecido.
 
 Obs: Utilize ponto (.) para separar a parte decimal.
@@ -32,7 +32,7 @@ int main() {
 	//Quantidade notas de R$ 100
 	qnotas = entrada / 10000;
 	resto = entrada % 10000;
-	printf("NOTAS:/n%d nota(s) de R$ 100.00\n", qnotas);
+	printf("NOTAS:\n%d nota(s) de R$ 100.00\n", qnotas);
 	
 	//Quantidade notas de R$ 50
 	qnotas = resto / 5000;
@@ -94,3 +94,4 @@ int main() {
 		
     return 0;
 }
+
