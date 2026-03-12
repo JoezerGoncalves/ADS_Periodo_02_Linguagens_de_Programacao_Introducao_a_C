@@ -21,17 +21,18 @@ Obs: Utilize ponto (.) para separar a parte decimal.
  
 int main() {
  
-    int qnotas, entrada, resto;
+    double entrada;
+	int qnotas, centavos, resto;
 	
 	//Entrada do valor
-	scanf("%d", &entrada);
+	scanf("%lf", &entrada);
 	
-	//Converte em valor digitado em centavos
-	entrada = entrada * 100 + 0.5;
+	//Converter valor de float para int e para centavos
+	centavos = (int)(entrada * 100 + 0.5);
 	
 	//Quantidade notas de R$ 100
-	qnotas = entrada / 10000;
-	resto = entrada % 10000;
+	qnotas = centavos / 10000;
+	resto = centavos % 10000;
 	printf("NOTAS:\n%d nota(s) de R$ 100.00\n", qnotas);
 	
 	//Quantidade notas de R$ 50
@@ -89,9 +90,8 @@ int main() {
  	//Quantidade moedas de R$ 0.01
 	qnotas = resto / 01;
 	resto = resto % 01;
-	printf("%d moeda(s) de R$ 0.01\n", qnotas);		
-	
-		
+	printf("%d moeda(s) de R$ 0.01\n", qnotas);	
+			
     return 0;
 }
 
